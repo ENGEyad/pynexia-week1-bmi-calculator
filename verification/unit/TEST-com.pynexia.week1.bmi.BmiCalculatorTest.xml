@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pynexia.week1.bmi.BmiCalculatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-24T23:31:01" hostname="EYAD" time="0.015">
+  <properties/>
+  <testcase name="rejectsInvalidMeasurements" classname="com.pynexia.week1.bmi.BmiCalculatorTest" time="0.011"/>
+  <testcase name="parsesLocalizedNumbers" classname="com.pynexia.week1.bmi.BmiCalculatorTest" time="0.001"/>
+  <testcase name="classifiesExactBoundariesWithoutRounding" classname="com.pynexia.week1.bmi.BmiCalculatorTest" time="0.001"/>
+  <testcase name="computesMetricBmi" classname="com.pynexia.week1.bmi.BmiCalculatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

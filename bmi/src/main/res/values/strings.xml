@@ -1,0 +1,24 @@
+<resources>
+    <string name="logo_description">Pynexia learning project logo</string>
+    <string name="eyebrow">PYNEXIA / WEEK 01</string>
+    <string name="app_name">Pynexia BMI</string>
+    <string name="headline">Know your\nnumbers.</string>
+    <string name="intro">Enter your height and weight to calculate your body mass index.</string>
+    <string name="height_label">Height · cm</string>
+    <string name="height_hint">e.g. 175</string>
+    <string name="weight_label">Weight · kg</string>
+    <string name="weight_hint">e.g. 70</string>
+    <string name="calculate">Calculate BMI</string>
+    <string name="reset">Reset</string>
+    <string name="result_empty">Your result will appear here</string>
+    <string name="result_format">%1$.2f</string>
+    <string name="result_label">BODY MASS INDEX</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">Overweight</string>
+    <string name="obese">Obese</string>
+    <string name="height_error">Enter a valid height from 50 to 300 cm.</string>
+    <string name="weight_error">Enter a valid weight from 10 to 700 kg.</string>
+    <string name="note">For adults aged 20+. BMI is a screening measure, not a diagnosis.</string>
+    <string name="ranges">Underweight  &lt; 18.5\nNormal  18.5 to &lt; 25\nOverweight  25 to &lt; 30\nObese  ≥ 30</string>
+</resources>
