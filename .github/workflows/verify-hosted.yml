@@ -12,7 +12,7 @@ jobs:
         shell: python
         run: |
           import hashlib, urllib.request
-          expected = {'index.html': 'e520c2b53c241393b8ebfb0cad31c2738ac9fce1427e4f34f2e7b681a56ed31e', 'style.css': '05e20b0bb4f1aeceed487f519408a3653367eda7afce70ff50f56a39dfdd5d3c', 'script.js': 'c0d9c2f92b8ee4dae3171f22298f0efa65efde3c45f9dd261195d76c2ca0bb31', 'downloads/BMI-Calculator.zip': 'a004f46125c97974d36f939506d02a2afd85214c8f30146b27dac718e535b845', 'downloads/BMI-Calculator-Report.pdf': '2ef4d445e1ce6c9882f066e39b5af61a995e251efcc728492bc81f75f009143e', 'downloads/BMI-Calculator.apk': 'ec14eb7318b52ac316a5a0003ab0f0f862b1f39519621e56f1ed4a772c6b84b5'}
+          expected = {'index.html': '30c58b9600bcb39ca1ccbd750c041e3036e4a0fd55ca14b170d5f0bfbf213379', 'style.css': '05e20b0bb4f1aeceed487f519408a3653367eda7afce70ff50f56a39dfdd5d3c', 'script.js': '3e1ed7d88b16a69dc44115e02b034066c1fdb99c27f9ad65601fcff7f5a1b5be', 'downloads/BMI-Calculator.zip': 'a004f46125c97974d36f939506d02a2afd85214c8f30146b27dac718e535b845', 'downloads/BMI-Calculator-Report.pdf': '2ef4d445e1ce6c9882f066e39b5af61a995e251efcc728492bc81f75f009143e', 'downloads/BMI-Calculator.apk': 'ec14eb7318b52ac316a5a0003ab0f0f862b1f39519621e56f1ed4a772c6b84b5'}
           base = 'https://engeyad.github.io/pynexia-week1-bmi-calculator/'
           for path, digest in expected.items():
               with urllib.request.urlopen(base + path, timeout=30) as response:
